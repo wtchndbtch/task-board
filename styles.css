@@ -1,0 +1,79 @@
+body {
+  font-family: "Inter", sans-serif;
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(9, 9, 121, 1) 35%,
+    rgba(0, 212, 255, 1) 100%
+  );
+}
+
+header {
+  margin: 0;
+  padding: 1rem 1.5rem;
+}
+
+header h1 {
+  margin: 0;
+  color: white;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+  text-transform: uppercase;
+}
+
+section {
+  display: flex;
+  justify-content: space-around;
+  width: 90%;
+  max-height: 28rem;
+  padding: 1rem;
+  margin: 6rem auto;
+  background-color: rgba(255, 255, 255, 0.797);
+  border: 1px solid transparent;
+  border-radius: 6px;
+  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.1);
+}
+
+.control {
+  display: flex;
+  justify-content: space-between;
+  padding: 0;
+  box-shadow: none;
+}
+
+div {
+  width: 14rem;
+  padding: 1rem;
+  background-color: rgb(201, 234, 240);
+  border: rgb(201, 234, 240);
+  border-radius: 6px;
+  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.1);
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  max-height: 24rem;
+  overflow: auto;
+}
+
+span {
+  color: rgb(17, 17, 68);
+}
+
+div h3 {
+  text-transform: uppercase;
+  margin: 0.5rem;
+  text-align: center;
+  color: rgb(17, 17, 68);
+}
+
+li {
+  padding: 1rem;
+  margin: 0.5rem 0;
+  background-color: white;
+  border: 1px solid white;
+  border-radius: 6px;
+  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.1);
+}
